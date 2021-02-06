@@ -4,6 +4,8 @@
 /dist
 /tmp
 /out-tsc
+/bin
+/obj
 # Only exists if Bazel was run
 /bazel-out
 
@@ -25,6 +27,7 @@ speed-measure-plugin*.json
 
 # IDE - VSCode
 .vscode/*
+.vs/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
