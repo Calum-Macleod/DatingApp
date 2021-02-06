@@ -6,6 +6,19 @@
 /out-tsc
 /bin
 /obj
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+!/docs/core/build/
+bld/
+[Bb]in/
+[Oo]bj/
 # Only exists if Bazel was run
 /bazel-out
 
@@ -16,6 +29,18 @@
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
+
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+
 
 # IDEs and editors
 /.idea
